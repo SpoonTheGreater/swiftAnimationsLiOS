@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					1ACB86561DEB2C7E00DF833C = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 46K9FG5ZG8;
 						ProvisioningStyle = Automatic;
 					};
 					1ACB866A1DEB2C7E00DF833C = {
@@ -412,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46K9FG5ZG8;
 				INFOPLIST_FILE = animations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nosad.animations;
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46K9FG5ZG8;
 				INFOPLIST_FILE = animations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nosad.animations;
