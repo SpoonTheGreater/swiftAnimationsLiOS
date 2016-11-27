@@ -14,6 +14,8 @@
 		1ACB86651DEB2C7E00DF833C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB86631DEB2C7E00DF833C /* LaunchScreen.storyboard */; };
 		1ACB86701DEB2C7E00DF833C /* animationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB866F1DEB2C7E00DF833C /* animationsTests.swift */; };
 		1ACB867B1DEB2C7F00DF833C /* animationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB867A1DEB2C7F00DF833C /* animationsUITests.swift */; };
+		1ACB868B1DEB2FA900DF833C /* JSVerticleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB868A1DEB2FA900DF833C /* JSVerticleBar.swift */; };
+		1ACB868D1DEB323E00DF833C /* JSVerticleBarRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB868C1DEB323E00DF833C /* JSVerticleBarRunner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1ACB86761DEB2C7F00DF833C /* animationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACB867A1DEB2C7F00DF833C /* animationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationsUITests.swift; sourceTree = "<group>"; };
 		1ACB867C1DEB2C7F00DF833C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ACB868A1DEB2FA900DF833C /* JSVerticleBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSVerticleBar.swift; path = elements/JSVerticleBar.swift; sourceTree = "<group>"; };
+		1ACB868C1DEB323E00DF833C /* JSVerticleBarRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSVerticleBarRunner.swift; path = elements/JSVerticleBarRunner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				1ACB86611DEB2C7E00DF833C /* Assets.xcassets */,
 				1ACB86631DEB2C7E00DF833C /* LaunchScreen.storyboard */,
 				1ACB86661DEB2C7E00DF833C /* Info.plist */,
+				1ACB868A1DEB2FA900DF833C /* JSVerticleBar.swift */,
+				1ACB868C1DEB323E00DF833C /* JSVerticleBarRunner.swift */,
 			);
 			path = animations;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACB865D1DEB2C7E00DF833C /* ViewController.swift in Sources */,
+				1ACB868B1DEB2FA900DF833C /* JSVerticleBar.swift in Sources */,
+				1ACB868D1DEB323E00DF833C /* JSVerticleBarRunner.swift in Sources */,
 				1ACB865B1DEB2C7E00DF833C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
