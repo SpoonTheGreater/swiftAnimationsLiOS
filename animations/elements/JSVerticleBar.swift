@@ -63,6 +63,7 @@ class JSVerticleBar: CALayer {
         runner.position = endPoint
         
         runner.add(animation, forKey: "position")
+        //newBar.transform =
         
     }
     

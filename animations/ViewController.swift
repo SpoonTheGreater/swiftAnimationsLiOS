@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         for i in 0 ... sliderCount {
             newBar = JSVerticleBar(frame: CGRect(x: CGFloat(i) * CGFloat(sliderSpace), y:20.0, width: 2.0,height : UIScreen.main.bounds.height - 40), color: UIColor(colorLiteralRed: Float(Int(arc4random_uniform(256)))/254.0, green: Float(Int(arc4random_uniform(256)))/254.0, blue: Float(Int(arc4random_uniform(256)))/254.0, alpha: 0.8) )
             sliders.add(newBar)
+            
+            newBar.transform = CATransform3DRotate(CATransform3DIdentity, (CGFloat(Int(arc4random_uniform(30)))/30.0) - 15, 0, 0, 1)
         }
         super.init(coder: aDecoder)
     }
@@ -45,6 +47,8 @@ class ViewController: UIViewController {
             }
         }
         tapGestureRecogniser.addTarget(self, action: #selector(respondToTap))
+        
+        //rotate()
     }
 
     override func didReceiveMemoryWarning() {
@@ -54,6 +58,22 @@ class ViewController: UIViewController {
 
     func respondToTap()  {
         rightSlider.toggleAnimation()
+    }
+    
+    func rotate() {
+        let transformAnimation = CABasicAnimation(keyPath: "transform")
+        let startTransform = CATransform3DIdentity
+        
+        transformAnimation.fromValue = startTransform
+        
+        let endTransform = CATransform3DRotate(CATransform3DIdentity, (CGFloat(Int(arc4random_uniform(30)))/30.0) - 15, 0, 1, 0)
+        transformAnimation.toValue = endTransform
+        transformAnimation.autoreverses = true
+        transformAnimation.duration = 3
+        transformAnimation.repeatCount = 100
+        self.view.layer.transform = endTransform
+        
+        self.view.layer.add(transformAnimation, forKey: "transform")
     }
 }
 

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "animations/ViewController.swift"
-            timestampString = "501959620.095831"
+            timestampString = "501960686.905031"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "respondToTap()"
             landmarkType = "7">
          </BreakpointContent>
